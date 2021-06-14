@@ -1,12 +1,19 @@
 Distro linux là gì
 
-Distro linux là: hệ điều hành mở cho phép người dùng sử dụng miễn phí, tự do phát triển và định hướng hay tùy chỉnh theo nhu cầu thực tế của mình (được gọi là distro Linux hay distribution Linux). Đây chính là điều hạn chế của các hệ điều hành đóng. 
-Vì thế, do sự thuận tiện trong việc dựa vào nền tảng hệ điều hành Linux để tùy chỉnh theo mục đích sử dụng, nên nhiều người nghĩ Linux chính là phần cốt lõi giúp hệ điều hành dễ dàng điều khiển các phần cứng. Hay nói cách khác, dựa vào Linux, nhiều người đã phát triển thêm các hệ điều hành. 
+Distro linux là: hệ điều hành mở cho phép người dùng sử dụng miễn phí, tự do phát triển và định hướng hay tùy 
+chỉnh theo nhu cầu thực tế của mình (được gọi là distro Linux hay distribution Linux).Đây chính là điều hạn chế của các hệ điều hành đóng. 
+
+Vì thế, do sự thuận tiện trong việc dựa vào nền tảng hệ điều hành Linux để tùy chỉnh theo mục đích sử dụng, nên nhiều người nghĩ Linux chính là phần cốt lõi giúp hệ điều hành dễ dàng điều khiển các phần cứng. Hay nói cách khác, dựa vào Linux, nhiều người đã phát triển thêm các hệ điều hành.
+
 Hiện nay, hệ điều hành Linux được ứng dụng rộng rãi, nhất là trong mảng server và các thiết bị internet of things. Ngay cả các biển báo sân bay, máy đổi tiền và server các website này cũng sử dụng mã nguồn mở. Hay thiết bị di động sử dụng hệ điều hành Android mà bạn đang sử dụng cũng được xây dựng trên nền tảng Linux.
+
+
 Linux là gì
 
 Linux là tên gọi của một hệ điều hành máy tính và cũng là tên hạt nhân của hệ điều hành. Nó có lẽ là một ví dụ nổi tiếng nhất của phần mềm tự do và của việc phát triển mã nguồn mở.
+
 Phiên bản Linux đầu tiên do Linus Torvalds viết vào năm 1991, lúc ông còn là một sinh viên của Đại học Helsinki tại Phần Lan. Ông làm việc một cách hăng say trong vòng 3 năm liên tục và cho ra đời phiên bản Linux 1.0 vào năm 1994. Bộ phận chủ yếu này được phát triển và tung ra trên thị trường dưới bản quyền GNU General Public License. Do đó mà bất cứ ai cũng có thể tải và xem mã nguồn của Linux.
+
 Một cách chính xác, thuật ngữ “Linux” được sử dụng để chỉ Nhân Linux, nhưng tên này được sử dụng một cách rộng rãi để miêu tả tổng thể một hệ điều hành giống Unix (còn được biết đến dưới tên GNU/Linux) được tạo ra bởi việc đóng gói nhân Linux cùng với các thư viện và công cụ GNU, cũng như là các bản phân phối Linux. Thực tế thì đó là tập hợp một số lượng lớn các phần mềm như máy chủ web, các ngôn ngữ lập trình, các hệ quản trị cơ sở dữ liệu, các môi trường làm việc desktop như GNOME và KDE, và các ứng dụng thích hợp cho công việc văn phòng như OpenOffice, LibreOffice.
 
 
