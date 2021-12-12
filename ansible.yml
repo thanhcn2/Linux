@@ -1,0 +1,68 @@
+ansible
+file config.yml
+
+````
+
+file config two
+ ````
+ - name: Create Yum Repo
+        yum_repository:
+          name: "docker"
+          description: "this is a docker repo"
+          reposdir: "/etc/yum.repos.d/"
+          baseurl: "https://download.docker.com/linux/centos/7/x86_64/stable/"
+          gpgcheck : "no"
+          enabled: yes
+          
+ - name: Run Yum RepoList
+        command: yum repolist
+        
+ - name: Run Docker CMD
+        command: yum install -y --nobest docker-ce
+
+ - name: Check Package
+        package:
+          name: "docker-ce"
+          state: present
+
+ - name: Check Service
+        service:
+          name: docker
+          state: started
+          enabled: yes
+          
+ - name: Install Docker SDK
+          command: "pip3 install docker-py"
+
+ - name: Pull IMG From DockerHub
+          docker_image:
+            name: "vimal13/apache-webserver-php:v1"
+            source: pull
+                    
+ - name: Run Container
+          docker_container:
+            name: "container1"
+            image: "vimal13/apache-webserver-php:v1"
+            state: started
+            detach: yes
+            exposed_ports:
+                 - 80
+            ports:
+                 - "8080:80"
+
+ - name: Initiate HTTPD on Docker
+          command: "systemctl start httpd.service"
+
+ - name: Get Container Details
+          docker_container_info:
+            name: "container1"
+            register: result
+
+ - name: Copy File To TN
+          copy:
+            src: "demo1.html"
+            dest: "/root"
+
+ - name: Copy File To Docker Container
+          command: "docker cp /root/demo1.html container1:/var/www/html"
+ ````
